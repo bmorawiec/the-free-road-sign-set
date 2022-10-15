@@ -1,0 +1,83 @@
+@font-face {
+    font-family: "Source Sans Pro";
+    src: url(fonts/SourceSansPro-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Source Sans Pro";
+    font-weight: bold;
+    src: url(fonts/SourceSansPro-Bold.ttf);
+}
+
+body {
+    font-family: "Source Sans Pro";
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 50px 40px;
+}
+
+h3 {
+    margin-top: 50px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.examples > img {
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.up-btn {
+    position: fixed;
+    display: block;
+    background: #dadada;
+    padding: 10px;
+    right: 50px;
+    bottom: 50px;
+}
+
+.up-btn:hover {
+    background: #bababa;
+}
+
+.categs > a > img{
+    height: 60px;
+    margin-right: 20px;
+}
+
+.categs > a:hover {
+    opacity: 40%;
+}
+
+.grid > div {
+    display: inline-block;
+    vertical-align: top;
+    width: 200px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.logo {
+    display: block;
+    width: 90px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    border-bottom: 2px solid black;
+}
+
+.link:active {
+    background: black;
+    color: white;
+    border-color: white;
+    outline: 3px solid black;
+}
